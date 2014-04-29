@@ -1,0 +1,79 @@
+@CHARSET "ISO-8859-1";
+#mainNav.fiveStep li {
+	width: 32%;
+	height: 40px;
+	margin-left: 5px;
+}
+#mainNav li.current {
+	background: #C36615 url(images/bg-cr.png) repeat-x center right;
+}
+#mainNav li.active a{
+	font-weight: bold;
+}
+#mainNav li {
+	height: 40px;
+	width:32%;
+	list-style: none;
+	float: left;
+	background: #EBEBEB url(images/navBtn.gif) no-repeat center center;
+}
+#mainNav.fiveStep li a {
+}
+#mainNav li a {
+	height: 40px;
+	display: block;
+	line-height: 40px;
+	text-align: center;
+	color: #FFF!important;
+}
+#mainNav li a, #mainNav li a:link, #mainNav li a:visited, #mainNav li a:hover, #mainNav li a:active {
+	color: #CCC;
+}
+#mainNav li a em {
+	width: 150px;
+	display: block;
+	margin: 6px 0 0 10px;
+	font-style: normal;
+	font-weight: bold;
+}
+#mainNav li a span {
+	width: 140px;
+	display: block;
+	margin-left: 10px;
+	font-weight: normal;
+}
+#mainNav li.lastDone {
+	background: #7C8437;
+}
+.tab-content-tut div{
+	display: none;
+}
+.tab-content-tut .active{
+	display: block;
+}
+#tut-step{
+	position: absolute;
+	bottom:20px;
+	width:100%;
+}
+.Leads{
+background: transparent url(images/leads_crm_64.png) no-repeat left center;
+padding-left: 70px;
+line-height: 64px;
+height: 64px;
+}
+.Contacts{
+background: transparent url(images/contacts_crm_64.png) no-repeat left center;
+padding-left: 70px;
+line-height: 64px;
+height: 64px;
+}
+.navbar .nav > li > a:hover{
+background: #4091D1;
+}
+.container-fluid{
+padding: 0;
+}
+.chzn-container .chzn-results li{
+	padding: 4px 0 4px 0;
+}

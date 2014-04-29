@@ -1,0 +1,112 @@
+@CHARSET "ISO-8859-1";
+table{
+	width: 100%;
+}
+table tr td{
+	vertical-align: top;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+ul li{
+	list-style-type: none;
+}
+#analytics{
+	margin: 5px;
+	border: 1px solid #ccc;
+}
+.anal-left{
+}
+.anal-right{
+}
+.anal-left .anal-menu h3{
+	background: #DEA638;
+	color: #fff;
+	padding: 5px;
+	font-size: 14px;
+}
+.clear{
+	clear: both;
+}
+.anal-options .btn-group{
+	float: left;
+}
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@charset 'UTF-8';
+/* Base Styles */
+#cssmenu a {
+  padding: 6px 15px;
+}
+#cssmenu {
+}
+#cssmenu > ul > li {
+  	cursor: pointer;
+	line-height: 2.3333333333333335em;
+}
+#cssmenu > ul > li span{
+}
+#cssmenu > ul > li.has-sub > a{
+	position: relative;
+}
+#cssmenu > ul > li.has-sub > a > span.btn-drd{
+	background-image: url(button-arrows.png);
+	background-repeat: no-repeat;
+	background-position: 0px center;
+	display: block;
+	width: 9px;
+	height: 8px;
+	position: absolute;
+	right: 25px;
+	top: 22px;
+}
+#cssmenu > ul > li.active > a > span.btn-drd{
+	background-position: right center;
+}
+#cssmenu > ul > li:last-child {
+}
+#cssmenu > ul > li > a {
+  	display: block;
+  	color: #fff;
+	font-weight: bold;
+  	padding: 3px 5px;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	background: #5EA2D8;
+	text-transform: uppercase;
+}
+#cssmenu > ul > li > a .caret{
+	margin-top: 13px;
+float: right;
+}
+#cssmenu > ul > li > a:hover {
+  text-decoration: none;
+}
+#cssmenu > ul > li.active {
+  border-bottom: none;
+}
+#cssmenu > ul > li.active > a {
+}
+/* Sub menu */
+#cssmenu ul ul {
+  padding: 0;
+  display: none;
+}
+#cssmenu ul ul a {
+  background: #fff;
+  display: block;
+  color: #959595;
+  font-size: 11px;
+  padding: 8px 3px;
+	border-bottom: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+#cssmenu ul ul a:hover{
+	background: #F3F2F2;
+	color: #45BCD2;
+}
+#cssmenu ul ul li {
+}
+#cssmenu ul ul li:last-child {
+  border: none;
+}

@@ -1,0 +1,35 @@
+body{
+background: #fff!important;
+}
+.login-box{
+background: #3F79C4!important;
+}
+h3.login-header{
+color: #fff;
+}
+.login-form label b, #forgotPassword a, #backButton a{
+color: #fff;
+}
+.helpLinks{
+background: #3F79C4;
+color: #fff;
+}
+.helpLinks a{
+color: #fff;
+font-size: 12px;
+}
+.login-form .alert{
+	padding: 3px;
+	margin: 0 0 5px 0;
+}
+.login-form .alert p{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.container-fluid{
+padding: 0;
+}
+.navbar-inner{
+	padding: 0 10px!important;
+}

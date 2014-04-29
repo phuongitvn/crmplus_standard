@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+#analytics{
+	border: 1px solid #ccc;
+	margin: 5px;
+}
+.anal-left{
+	border-right: 1px solid #ccc;
+	width: 200px;
+}
+.anal-left, .anal-right{
+	float: left;
+}

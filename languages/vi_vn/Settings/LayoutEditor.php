@@ -1,0 +1,91 @@
+<?php
+/*+***********************************************************************************
+ * The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * ("License"); You may not use this file except in compliance with the License
+ * The Original Code is:  vtiger CRM Open Source
+ * The Initial Developer of the Original Code is vtiger.
+ * Portions created by vtiger are Copyright (C) vtiger.
+ * All Rights Reserved.
+ *************************************************************************************/
+$languageStrings = array(
+	'LayoutEditor' => 'Sửa Layout',
+	'LBL_FIELDS_AND_LAYOUT_EDITOR' => 'Sửa Layout và trường nhập liệu',
+	'LBL_CREATE_CUSTOM_FIELD' => 'Tạo mới trường dữ liệu',
+	'LBL_DETAILVIEW_LAYOUT' => 'Layout xem chi tiết',
+	'LBL_ARRANGE_RELATED_TABS' => 'Sắp xếp Tabs liên quan',
+	'LBL_ADD_CUSTOM_FIELD' => 'Thêm trường dữ liệu',
+	'LBL_ADD_CUSTOM_BLOCK' => 'Thêm khối dữ liệu',
+	'LBL_SAVE_FIELD_SEQUENCE' => 'Lưu thứ tự trường',
+	'LBL_BLOCK_NAME' => 'Tên khối',
+	'LBL_ADD_AFTER' => 'Thêm sau',
+	'LBL_ACTIONS' => 'Thao tác',
+	'LBL_ALWAYS_SHOW' => 'Luôn luôn thể hiện',
+	'LBL_INACTIVE_FIELDS' => 'Trường chưa sử dụng',
+	'LBL_DELETE_CUSTOM_BLOCK' => 'Xoá khối dữ liệu',
+	'LBL_MANDATORY_FIELD' => 'Trường bắt buộc',
+	'LBL_ACTIVE' => 'Sử dụng',
+	'LBL_QUICK_CREATE' => 'Thêm nhanh',
+	'LBL_SUMMARY_FIELD' => 'Xem tóm lược',
+	'LBL_MASS_EDIT' => 'Sửa nhanh',
+	'LBL_DEFAULT_VALUE' => 'Đặt mặc định',
+	'LBL_SELECT_FIELD_TYPE' => 'Loại trường dữ liệu',
+	'LBL_LABEL_NAME' => 'Tên nhãn',
+	'LBL_LENGTH' => 'Độ dài',
+	'LBL_DECIMALS' => 'Số thậm phân',
+	'LBL_ENTER_PICKLIST_VALUES' => 'nhập Danh mục chọn..',
+	'LBL_PICKLIST_VALUES' => 'Danh mục chọn',
+	'LBL_INACTIVE_FIELDS' => 'Trường không sử dụng',
+	'LBL_REACTIVATE' => 'Kích hoạt',
+	'LBL_ARRANGE_RELATED_LIST' => 'Sắp xếp phân hệ liên quan',
+	'LBL_SELECT_MODULE_TO_ADD' => 'Chọn phân hệ để thêm vào',
+	'LBL_NO_RELATED_INFORMATION' => 'Không có thông tin liên quan',
+	'LBL_RELATED_LIST_INFO' => 'Kéo và thả các phân hệ để sắp xếp lại danh sách',
+	'LBL_REMOVE_INFO' => 'Nhấp vào biểu tượng "Đóng" để loại bỏ các phân hệ từ danh sách',
+	'LBL_ADD_MODULE_INFO' => 'Chọn các phân hệ từ các phân hệ bị loại bỏ để thêm trở lại vào danh sách',
+	'LBL_SELECT_MODULE' => 'Chọn phân hệ..',
+	'LBL_DUPLICATES_EXIST' => 'Tên khối đã tồn tại',
+	'LBL_NON_ROLE_BASED_PICKLIST' => 'Non Role Based Picklist',
+	'LBL_DUPLICATE_FIELD_EXISTS' => 'Nhân đôi các trường tồn tại',
+	'LBL_WRONG_FIELD_TYPE' => 'Loại trường dữ liệu sai',
+	'LBL_ROLE_BASED_PICKLIST' => 'Role Based Picklist',
+	'LBL_CLICK_HERE_TO_EDIT' => 'Nhấp đây để sửa',
+
+	//Field Types
+	'Text'=>'Text',
+	'Decimal'=>'Số thập phân',
+	'Integer'=>'Số nguyên',
+	'Percent'=>'Phần trăm',
+	'Currency'=>'Tiền tệ',
+	'Date'=>'Date',
+	'Email'=>'Email',
+	'Phone'=>'Điện thoại',
+	'PickList'=>'Danh mục chọn',
+	'MultiSelectCombo'=>'Combo Box chọn nhiều giá trị',
+	'URL' => 'URL',
+	'Checkbox' => 'Checkbox',
+	'TextArea' => 'Text Area',
+	'Skype'=>'Skype',
+	'Time'=>'Time',
+);
+
+$jsLanguageStrings = array(
+	'JS_BLOCK_VISIBILITY_SHOW' => 'Khối dữ liệu được sử dụng',
+	'JS_BLOCK_VISIBILITY_HIDE' => 'Khối dữ liệu đã ẩn',
+	'JS_CUSTOM_BLOCK_ADDED' => 'Khối dữ liệu mới được thêm',
+	'JS_BLOCK_SEQUENCE_UPDATED' => 'Thứ tự khối dữ liệu được cập nhật',
+	'JS_SELECTED_FIELDS_REACTIVATED' => 'Các trường dữ liệu chọn được kích hoạt',
+	'JS_FIELD_DETAILS_SAVED' => 'Chi tiết trường đã lưu',
+	'JS_CUSTOM_BLOCK_DELETED' => 'Khối dữ liệu đã xoá',
+	'JS_CUSTOM_FIELD_ADDED' => 'Trường dữ liệu mới đã thêm',
+	'JS_CUSTOM_FIELD_DELETED' => 'Trường dữ liệu đã xoá',
+	'JS_LENGTH_SHOULD_BE_LESS_THAN_EQUAL_TO' => 'Độ dài phải ít hơn hoặc bằng',
+	'JS_PLEASE_ENTER_NUMBER_IN_RANGE_2TO5' => 'Số thập phân phải trong khoảng từ 2 đến 5',
+	'JS_SAVE_THE_CHANGES_TO_UPDATE_FIELD_SEQUENCE' => 'Lưu các thay đổi để cập nhật thứ tự trường',
+	'JS_RELATED_INFO_SAVED' => 'Thông tin liên quan đã lưu',
+	'JS_BLOCK_NAME_EXISTS' => 'Tên khối đã tồn tại',
+	'JS_NO_HIDDEN_FIELDS_EXISTS' => 'Không có trường không kích hoạt',
+	'JS_SPECIAL_CHARACTERS' => 'Các ký tự đặc biệt như',
+	'JS_NOT_ALLOWED' => 'không được phép',
+	'JS_FIELD_SEQUENCE_UPDATED' => 'Thứ tự trường đã cập nhật',
+	'JS_DUPLICATES_VALUES_FOUND' => 'Nhân bản giá trị được tìm thấy'
+);

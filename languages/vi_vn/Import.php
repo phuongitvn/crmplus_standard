@@ -1,0 +1,73 @@
+<?php
+/*+***********************************************************************************
+ * The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * ("License"); You may not use this file except in compliance with the License
+ * The Original Code is:  vtiger CRM Open Source
+ * The Initial Developer of the Original Code is vtiger.
+ * Portions created by vtiger are Copyright (C) vtiger.
+ * All Rights Reserved.
+ *************************************************************************************/
+$languageStrings = array(
+	'LBL_IMPORT_STEP_1' => 'Bước 1',
+	'LBL_IMPORT_STEP_1_DESCRIPTION' => 'Chọn File',
+	'LBL_IMPORT_SUPPORTED_FILE_TYPES' => '	Các loại File hỗ trợ: .CSV, .VCF, .XLS',
+	'LBL_IMPORT_STEP_2' => 'Bước 2',
+	'LBL_IMPORT_STEP_2_DESCRIPTION' => 'Định dạng đặc biệt',
+	'LBL_FILE_TYPE' => 'Loại file',
+	'LBL_CHARACTER_ENCODING' => 'Chuẩn font',
+	'LBL_DELIMITER' => 'Dấu phân cách',
+	'LBL_HAS_HEADER' => 'Có phần đầu',
+	'LBL_IMPORT_STEP_3' => 'Bước 3',
+	'LBL_IMPORT_STEP_3_DESCRIPTION' => 'Xử lý bản ghi trùng lặp',
+	'LBL_IMPORT_STEP_3_DESCRIPTION_DETAILED' => 'Stick chọn bên dưới để dùng và đặt trường dữ liệu gộp',
+	'LBL_SPECIFY_MERGE_TYPE' => 'Chọn bản ghi trùng để xử lý',
+	'LBL_SELECT_MERGE_FIELDS' => 'Chọn trường dữ liệu kết nối để tìm ra bản ghi trùng lặp',
+	'LBL_AVAILABLE_FIELDS' => 'Trường dữ liệu khả dụng',
+	'LBL_SELECTED_FIELDS' => 'Trường dữ liệu được kết nối',
+	'LBL_NEXT_BUTTON_LABEL' => 'Tiếp',
+	'LBL_IMPORT_STEP_4' => 'Bước 4',
+	'LBL_IMPORT_STEP_4_DESCRIPTION' => 'Xử lý kết nối các cột, trường dữ liệu trùng lặp',
+	'LBL_FILE_COLUMN_HEADER' => 'Tiêu đề',
+	'LBL_ROW_1' => 'Dòng 1',
+	'LBL_CRM_FIELDS' => 'CRM Fields',
+	'LBL_DEFAULT_VALUE' => 'Giá trị mặc định',
+	'LBL_SAVE_AS_CUSTOM_MAPPING' => 'Lưu định dạng kết nối ',
+	'LBL_IMPORT_BUTTON_LABEL' => 'Import',
+	'LBL_RESULT' => 'Kết quả',
+	'LBL_TOTAL_RECORDS_IMPORTED' => 'Những bản ghi import thành công',
+	'LBL_NUMBER_OF_RECORDS_CREATED' => 'Bản ghi được tạo',
+	'LBL_NUMBER_OF_RECORDS_UPDATED' => 'Bản ghi được viết đè',
+	'LBL_NUMBER_OF_RECORDS_SKIPPED' => 'Bản ghi bị bỏ qua',
+	'LBL_NUMBER_OF_RECORDS_MERGED' => 'Bản ghi được kết nối', 
+	'LBL_TOTAL_RECORDS_FAILED' => 'Bản ghi lỗi trong quá trình import',
+	'LBL_IMPORT_MORE' => 'Import thêm',
+	'LBL_VIEW_LAST_IMPORTED_RECORDS' => 'Bản ghi được import cuối cùng',
+	'LBL_UNDO_LAST_IMPORT' => 'Phục hồi lại import lần cuối',
+	'LBL_FINISH_BUTTON_LABEL' => 'Hoàn thành!',
+	'LBL_UNDO_RESULT' => 'Phục hồi kết quả import',
+	'LBL_TOTAL_RECORDS' => 'Tổng số bản ghi',
+	'LBL_NUMBER_OF_RECORDS_DELETED' => 'Tổng số bản ghi bị xoá',
+	'LBL_OK_BUTTON_LABEL' => 'Chấp nhận',
+	'LBL_IMPORT_SCHEDULED' => 'Lịch import',
+	'LBL_RUNNING' => 'Đang xử lý',
+	'LBL_CANCEL_IMPORT' => 'Bỏ qua Import',
+	'LBL_ERROR' => 'Xảy ra lỗi',
+	'LBL_CLEAR_DATA' => 'Xoá dữ liệu',
+	'ERR_UNIMPORTED_RECORDS_EXIST' => 'Không thể tiếp tục import đang thực hiện. Vui lòng bắt đầu import mới.',
+	'ERR_IMPORT_INTERRUPTED' => 'Import hiện tại đang xảy ra lỗi. Vui lòng thử lại!',
+	'ERR_FAILED_TO_LOCK_MODULE' => 'Xảy ra lỗi khi chọn cố định module import. Vui lòng thử lại!',
+	'LBL_SELECT_SAVED_MAPPING' => 'Chọn định dạng kết nối dữ liệu đã lưu',
+	'LBL_IMPORT_ERROR_LARGE_FILE' => 'Lỗi xảy ra do file import quá lớn ',
+	'LBL_FILE_UPLOAD_FAILED' => 'File tải lên bị lỗi',
+	'LBL_IMPORT_CHANGE_UPLOAD_SIZE' => 'Import Change Upload Size',
+	'LBL_IMPORT_DIRECTORY_NOT_WRITABLE' => 'Thư mục import không khả năng ghi',
+	'LBL_IMPORT_FILE_COPY_FAILED' => 'Lỗi sao chép ffile import',
+	'LBL_INVALID_FILE' => 'File không giá trị',
+	'LBL_NO_ROWS_FOUND' => 'Chưa chọn dòng nào',
+	'LBL_SCHEDULED_IMPORT_DETAILS' => 'Lịch trình import sẽ được thực hiện trong 15 phút nữa. Bạn sẽ nhận được email sao khi hoàn thành import.  <br> <br>
+										Vui lòng kiểm tra kỹ thiết lập thư để có thể nhận được cảnh báo qua mail',
+	'LBL_DETAILS' => 'Chi tiết',
+	'skipped' => 'Những bản ghi bị bỏ qua',
+	'failed' => 'Những bản ghi bị lỗi',
+	
+);
