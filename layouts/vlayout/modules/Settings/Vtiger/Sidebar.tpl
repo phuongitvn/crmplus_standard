@@ -10,7 +10,6 @@
  ********************************************************************************/
 -->*}
 {strip}
-<div class="wrr-sidebar">
 <div class="sidebarTitleBlock">
 	<h3 class="titlePadding themeTextColor unSelectedQuickLink cursorPointer"><a href="index.php?module=Vtiger&parent=Settings&view=Index">{vtranslate('LBL_SETTINGS', $QUALIFIED_MODULE)}</a></h3>
 </div>
@@ -40,6 +39,5 @@
 			</div>
 		</div>
 	{/foreach}
-</div>
 </div>
 {/strip}

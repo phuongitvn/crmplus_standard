@@ -54,9 +54,9 @@ $HELPDESK_SUPPORT_EMAIL_REPLY_ID = $HELPDESK_SUPPORT_EMAIL_ID;
 
 $dbconfig['db_server'] = 'localhost';
 $dbconfig['db_port'] = ':3306';
-$dbconfig['db_username'] = 'root';
-$dbconfig['db_password'] = '';
-$dbconfig['db_name'] = 'crmplus_ga';
+$dbconfig['db_username'] = 'phuongnv';
+$dbconfig['db_password'] = 'phuongnv@123';
+$dbconfig['db_name'] = 'crmplus_ga_standard';
 $dbconfig['db_type'] = 'mysql';
 $dbconfig['db_status'] = 'true';
 
@@ -87,10 +87,10 @@ $dbconfigoption['ssl'] = false;
 
 $host_name = $dbconfig['db_hostname'];
 
-$site_URL = 'http://localhost:5858/';
+$site_URL = 'http://54.200.93.50:14020/';
 
 // root directory path
-$root_directory = 'E:\source\GITHUB\crmplus_ga_standard\\';
+$root_directory = '/var/www/html/CRMPlus/crmplus_ga_standard/';
 
 // cache direcory path
 $cache_dir = 'cache/';
