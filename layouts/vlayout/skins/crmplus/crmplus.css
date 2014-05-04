@@ -71,7 +71,8 @@ height: 64px;
 .navbar .nav > li > a:hover{
 background: #4091D1;
 }
-.container-fluid{
+#rightPanel .container-fluid{
+	padding: 0 20px;
 }
 .chzn-container .chzn-results li{
 	padding: 4px 0 4px 0;

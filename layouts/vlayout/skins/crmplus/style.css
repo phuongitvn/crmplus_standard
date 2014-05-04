@@ -2827,6 +2827,11 @@ div#chart2 {
   min-height: 635px;
   padding-top: 25px;
   background-color: #ffffff;
+}
+.container-fluid{
+	padding: 0;
+}
+#rightPanel{
 	border-left: 1px solid #E6E6E6;
 	position: relative;
 }
