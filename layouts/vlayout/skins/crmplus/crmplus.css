@@ -72,8 +72,19 @@ height: 64px;
 background: #4091D1;
 }
 .container-fluid{
-padding: 0;
 }
 .chzn-container .chzn-results li{
 	padding: 4px 0 4px 0;
+}
+.wrr-sidebar{
+	padding: 0 10px;
+}
+#settingsQuickWidgetContainer .widgetContainer{
+	border: 0!important;
+}
+#leftPanel{
+	background: #EEEFF2!important;
+}
+.detailViewContainer{
+	padding: 0 0 0 10px;
 }

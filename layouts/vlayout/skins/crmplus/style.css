@@ -272,7 +272,6 @@ hr {
   padding: 0 0 14px 0;
 }
 .quickWidgetContainer {
-  border-top: 2px solid #DEA638;
 }
 .quickWidgetContainer li {
   margin-left: -6%;
@@ -1004,7 +1003,7 @@ border-radius: 3px;
   margin-left: 45%;
 }
 .listViewPageDiv {
-  margin: 0px 10px 0 15px;
+	padding: 0 20px;
 }
 .listViewTopMenuDiv #customFilter {
   width: 350px !important;
@@ -1183,10 +1182,28 @@ table thead tr th a,
   border-width: 1px 1px 1px 0;
 }
 .quickLinksDiv p {
-  padding: 5% 0 0 11%;
-  height: 28px;
+  padding: 10px;
   cursor: pointer;
-  margin-bottom: 5px;
+}
+.sidebarTitleBlock h3{
+	padding: 5px!important;
+}
+.quickLinksDiv p,
+.quickWidgetContainer .quickWidgetHeader,.sidebarTitleBlock h3{
+	background: #5EA2D8;
+	border-radius: 3px;
+}
+.sideBarContents{
+	padding: 0 10px;
+}
+.quickLinksDiv p:hover,
+.quickWidgetHeader:hover,
+.sidebarTitleBlock h3:hover{
+	background: #4091D1!important;
+	
+}
+.quickLinksDiv p a,.sidebarTitleBlock h3 a{
+	color: #fff;
 }
 .loadingImg {
   margin-top: 8px;
@@ -1200,18 +1217,18 @@ table thead tr th a,
   margin-left: 35px;
 }
 .bodyContents {
-  background-color: #ffffff;
-  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
-  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
-  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
-  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
-  background-image: linear-gradient(top, #ffffff, #ffffff);
+  background-color: #EEEFF2;
+  background-image: -moz-linear-gradient(top, #EEEFF2, #EEEFF2);
+  background-image: -ms-linear-gradient(top, #EEEFF2, #EEEFF2);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EEEFF2), to(#EEEFF2));
+  background-image: -webkit-linear-gradient(top, #EEEFF2, #EEEFF2);
+  background-image: -o-linear-gradient(top, #EEEFF2, #EEEFF2);
+  background-image: linear-gradient(top, #EEEFF2, #EEEFF2);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
-  border-color: #ffffff #ffffff #d9d9d9;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEEFF2', endColorstr='#EEEFF2', GradientType=0);
+  border-color: #EEEFF2 #EEEFF2 #d9d9d9;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  border-bottom-color: #ffffff !important;
+  border-bottom-color: #EEEFF2 !important;
 }
 .dropdownStyles .title {
   padding-bottom: 5px;
@@ -2333,9 +2350,7 @@ Please check for the below classes if it is being used
   width: 65% !important;
 }
 .selectedQuickLink {
-  background-color: #e6e6e6;
-  background-repeat: repeat-x;
-  background-size: 100% 100%;
+  background-color: #DEA638!important;
 }
 .selectedQuickLink a {
   color: #333333;
@@ -2346,7 +2361,6 @@ Please check for the below classes if it is being used
 }
 .unSelectedQuickLink a {
   color: #333333;
-  text-shadow: 1px -1px 1px #ffffff;
   font-size: 12px;
   margin-top: 12%;
 }
@@ -2790,8 +2804,9 @@ div#chart2 {
   color: #333333;
 }
 .mainContainer {
-  margin-top: 80px;
+  margin-top: 70px;
 	padding-top: 15px;
+	background: #fff;
 }
 .navbar-fixed-top{
 	margin-bottom: 0!important;
@@ -2799,7 +2814,7 @@ div#chart2 {
 
 .mainContainer > .span2.row-fluid {
   min-height: 635px;
-  background: #ffffff;
+  background: #EEEFF2;
   padding-top: 25px;
 }
 #leftPanel{
@@ -2812,6 +2827,8 @@ div#chart2 {
   min-height: 635px;
   padding-top: 25px;
   background-color: #ffffff;
+	border-left: 1px solid #E6E6E6;
+	position: relative;
 }
 .fc-header-title h2 {
   font-size: 18px;
@@ -3268,8 +3285,10 @@ textarea {
 .settingsIndexPage #settingsShortCutsContainer {
   min-height: 350px;
 }
+.quickWidget{
+	margin-bottom: 10px;
+}
 #settingsQuickWidgetContainer .quickWidgetHeader {
-  background-color: #DEA638;
   border-color: #CCC;
 }
 #settingsQuickWidgetContainer h5 {
@@ -3663,14 +3682,17 @@ textarea {
   display: inline-block;
 }
 .toggleButton {
-  background: #e6e6e6;
+  background: #EEEFF2;
   font-weight: bold;
-  padding: 50px 2px;
-  position: fixed;
-  top: 40%;
+  padding: 5px 2px;
+  position: absolute;
+  top: 20px;
+	left: -1px;
   cursor: pointer;
   width: 10px;
   z-index: 1;
+	border: 1px solid #DDD;
+	border-left: 0;
 }
 .toggleButton .icon-chevron-left {
   background-position: -434px -72px !important;
