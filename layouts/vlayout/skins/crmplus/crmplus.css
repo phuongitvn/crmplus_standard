@@ -86,6 +86,7 @@ background: #4091D1;
 }
 #leftPanel{
 	background: #EEEFF2!important;
+	border-right: 1px solid #E6E6E6;
 }
 .detailViewContainer{
 	padding: 0 0 0 10px;
