@@ -21,22 +21,6 @@
 		<link href="libraries/bootstrap/css/jquery.bxslider.css" rel="stylesheet" />
 		<link href="layouts/vlayout/skins/crmplus/login.css" rel="stylesheet" />
 		<script src="libraries/jquery/jquery.min.js"></script>
-		<script src="libraries/jquery/boxslider/jquery.bxslider.js"></script>
-		<script src="libraries/jquery/boxslider/jquery.bxslider.min.js"></script>
-		<script src="libraries/jquery/boxslider/respond.min.js"></script>
-		<script>
-			jQuery(document).ready(function(){
-				scrollx = jQuery(window).outerWidth();
-				window.scrollTo(scrollx,0);
-				slider = jQuery('.bxslider').bxSlider({
-				auto: true,
-				pause: 4000,
-				randomStart : true,
-				autoHover: true
-			});
-			jQuery('.bx-prev, .bx-next, .bx-pager-item').live('click',function(){ slider.startAuto(); });
-			}); 
-		</script>
 	</head>
 	<body>
 		<div class="container-fluid login-container">
@@ -154,8 +138,8 @@
 					<div class="row-fluid">
 						<div class="span6 pull-left" >
 							<div class="footer-content">
-								<small>&#169 2013-2014&nbsp;
-									<a href="#"> CRM+</a><!-- | 
+								<small>&#169 2013-2015&nbsp;
+									<a target="_blank" href="http://thongtinquanly.com/crmplus"> CRM+</a><!-- | 
 									 <a href="javascript:mypopup();">Read License</a> | 
 									<a href="#">Privacy Policy</a> </small> -->
 							</div>
