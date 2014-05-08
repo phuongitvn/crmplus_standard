@@ -18,7 +18,7 @@ require_once('modules/HelpDesk/HelpDesk.php');
 $log = &LoggerManager::getLogger('webforms');
 
 //$serializer = new XML_Serializer();
-$NAMESPACE = 'http://www.vtiger.com/vtigercrm/';
+$NAMESPACE = 'http://www.thongtinquanly.com/products/crm';
 $server = new soap_server;
 
 $server->configureWSDL('vtigersoap');

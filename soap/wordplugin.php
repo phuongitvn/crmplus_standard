@@ -25,7 +25,7 @@ require_once('libraries/nusoap/nusoap.php');
 $log = &LoggerManager::getLogger('wordplugin');
 
 error_reporting(0);
-$NAMESPACE = 'http://www.vtiger.com/products/crm';
+$NAMESPACE = 'http://www.thongtinquanly.com/products/crm';
 $server = new soap_server;
 $accessDenied = "You are not permitted to perform this action";
 $server->configureWSDL('vtigersoap');

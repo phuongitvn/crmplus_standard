@@ -1,5 +1,0 @@
-Phần mềm CRM+ được phát triển bởi Công Ty Thông Tin Quản Lý
-Version: 2.0
-Email: info@thongtinquanly.com
-Website: http://thongtinquanly.com
-phuong.nguyen.itvn@gmail.com

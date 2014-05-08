@@ -1569,7 +1569,7 @@ Should any need arise,please do give us a call.';
                                                 <td align="right" style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(0, 0, 0); font-weight: normal; line-height: 20px;">$support_team$ </td>
                                             </tr>
                                             <tr>
-                                                <td align="right"><a style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bolder; text-decoration: none; color: rgb(66, 66, 253);" href="http://www.vtiger.com">www.vtiger.com</a></td>
+                                                <td align="right"><a style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bolder; text-decoration: none; color: rgb(66, 66, 253);" href="http://www.thongtinquanly.com">www.thongtinquanly.com</a></td>
                                             </tr>
                                             <tr>
                                                 <td> </td>
@@ -1591,7 +1591,7 @@ Should any need arise,please do give us a call.';
                                     <td align="center">Telephone No: +91 - 44 - 4202 - 1990     Toll Free No: +1 877 788 4437</td>
                                 </tr>
                                 <tr>
-                                    <td align="center">Email Id: <a style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bolder; text-decoration: none; color: rgb(255, 255, 255);" href="mailto:support@vtiger.com">support@vtiger.com</a></td>
+                                    <td align="center">Email Id: <a style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bolder; text-decoration: none; color: rgb(255, 255, 255);" href="mailto:info@thongtinquanly.com">info@thongtinquanly.com</a></td>
                                 </tr>
                         </table>
                         </td>
@@ -1676,7 +1676,7 @@ Should any need arise,please do give us a call.';
                                                 <td style="font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(22, 72, 134); font-weight: bolder; line-height: 15px;">Dear $contacts-lastname$, </td>
                                             </tr>
                                             <tr>
-                                                <td style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(0, 0, 0); font-weight: normal; text-align: justify; line-height: 20px;">This is just a notification mail regarding your support end.<br /><span style="font-weight: bold;">Priority:</span> Urgent<br />Your Support is going to expire on next week<br />Please contact support@vtiger.com.<br /><br /><br /></td>
+                                                <td style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(0, 0, 0); font-weight: normal; text-align: justify; line-height: 20px;">This is just a notification mail regarding your support end.<br /><span style="font-weight: bold;">Priority:</span> Urgent<br />Your Support is going to expire on next week<br />Please contact info@thongtinquanly.com.<br /><br /><br /></td>
                                             </tr>
                                             <tr>
                                                 <td align="center"><br /></td>
@@ -1688,7 +1688,7 @@ Should any need arise,please do give us a call.';
                                                 <td align="right" style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(0, 0, 0); font-weight: normal; line-height: 20px;">Support Team </td>
                                             </tr>
                                             <tr>
-                                                <td align="right"><a style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bolder; text-decoration: none; color: rgb(66, 66, 253);" href="http://www.vtiger.com">www.vtiger.com</a></td>
+                                                <td align="right"><a style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bolder; text-decoration: none; color: rgb(66, 66, 253);" href="http://www.thongtinquanly.com">www.thongtinquanly.com</a></td>
                                             </tr>
                                             <tr>
                                                 <td> </td>
@@ -1710,7 +1710,7 @@ Should any need arise,please do give us a call.';
                                     <td align="center">Telephone No: +91 - 44 - 4202 - 1990     Toll Free No: +1 877 788 4437</td>
                                 </tr>
                                 <tr>
-                                    <td align="center">Email Id: <a style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bolder; text-decoration: none; color: rgb(255, 255, 255);" href="mailto:info@vtiger.com">info@vtiger.com</a></td>
+                                    <td align="center">Email Id: <a style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bolder; text-decoration: none; color: rgb(255, 255, 255);" href="mailto:info@thongtinquanly.com">info@thongtinquanly.com</a></td>
                                 </tr>
                         </table>
                         </td>
@@ -1794,7 +1794,7 @@ Should any need arise,please do give us a call.';
                                                 <td style="font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(22, 72, 134); font-weight: bolder; line-height: 15px;">Dear $contacts-lastname$, </td>
                                             </tr>
                                             <tr>
-                                                <td style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(0, 0, 0); font-weight: normal; text-align: justify; line-height: 20px;">This is just a notification mail regarding your support end.<br /><span style="font-weight: bold;">Priority:</span> Normal<br />Your Support is going to expire on next month.<br />Please contact support@vtiger.com<br /><br /><br /></td>
+                                                <td style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(0, 0, 0); font-weight: normal; text-align: justify; line-height: 20px;">This is just a notification mail regarding your support end.<br /><span style="font-weight: bold;">Priority:</span> Normal<br />Your Support is going to expire on next month.<br />Please contact info@thongtinquanly.com<br /><br /><br /></td>
                                             </tr>
                                             <tr>
                                                 <td align="center"><br /></td>
@@ -1806,7 +1806,7 @@ Should any need arise,please do give us a call.';
                                                 <td align="right" style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(0, 0, 0); font-weight: normal; line-height: 20px;">Support Team </td>
                                             </tr>
                                             <tr>
-                                                <td align="right"><a href="http://www.vtiger.com" style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bolder; text-decoration: none; color: rgb(66, 66, 253);">www.vtiger.com</a></td>
+                                                <td align="right"><a href="http://www.thongtinquanly.com/crmplus" style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bolder; text-decoration: none; color: rgb(66, 66, 253);">www.vtiger.com</a></td>
                                             </tr>
                                             <tr>
                                                 <td> </td>
@@ -1828,7 +1828,7 @@ Should any need arise,please do give us a call.';
                                     <td align="center">Telephone No: +91 - 44 - 4202 - 1990     Toll Free No: +1 877 788 4437</td>
                                 </tr>
                                 <tr>
-                                    <td align="center">Email Id: <a href="mailto:info@vtiger.com" style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bolder; text-decoration: none; color: rgb(255, 255, 255);">info@vtiger.com</a></td>
+                                    <td align="center">Email Id: <a href="mailto:info@thongtinquanly.com" style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bolder; text-decoration: none; color: rgb(255, 255, 255);">info@vtiger.com</a></td>
                                 </tr>
                         </table>
                         </td>
@@ -1860,7 +1860,7 @@ Should any need arise,please do give us a call.';
 		$organizationId = $this->db->getUniqueID('vtiger_organizationdetails');
 		$this->db->query("insert into vtiger_organizationdetails(organization_id,organizationname,address,city,state,country,code,phone,fax,website,logoname)
 								values ($organizationId,'vtiger','95, 12th Main Road, 3rd Block, Rajajinagar','Bangalore',
-										'Karnataka','India','560010','+91 9243602352','+91 9243602352','www.vtiger.com','vtiger-crm-logo.png')");
+										'Karnataka','India','560010','+91 9243602352','+91 9243602352','www.thongtinquanly.com','vtiger-crm-logo.png')");
 
 
 		$this->db->query("insert into vtiger_actionmapping values(0,'Save',0)");

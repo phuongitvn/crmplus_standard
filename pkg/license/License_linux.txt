@@ -1,8 +1,3 @@
-
-This software is a collective work consisting of the following major Open Source components: 
-Apache software, MySQL server, PHP, SugarCRM, ADOdb, Smarty, PHPMailer, phpSysinfo, MagpieRSS and others, each licensed under a separate Open Source License. 
-vtiger.com is not affiliated with nor endorsed by any of the above providers.                  
-
 For Linux
 
 1. Apache Web server software used under the Apache License available at <vtiger CRM Home>/vtigerCRM_linux/apache/LICENSE.txt
@@ -1030,7 +1025,7 @@ Version 1.1.2
 
 13. MULTIPLE-LICENSED CODE.
 
-      Initial Developer may designate portions of the Covered Code as “Multiple-Licensed”.  “Multiple-Licensed” means that the Initial Developer permits you to utilize portions of the Covered Code under Your choice of the SPL or the alternative licenses, if any, specified by the Initial Developer in the file described in Exhibit A.
+      Initial Developer may designate portions of the Covered Code as ï¿½Multiple-Licensedï¿½.  ï¿½Multiple-Licensedï¿½ means that the Initial Developer permits you to utilize portions of the Covered Code under Your choice of the SPL or the alternative licenses, if any, specified by the Initial Developer in the file described in Exhibit A.
 
 SugarCRM Public License 1.1.2 - Exhibit A
 
@@ -1055,7 +1050,7 @@ SugarCRM Public License 1.1.2 - Exihibit B
 Additional Terms applicable to the SugarCRM Public License.
 
 I. Effect.
-These additional terms described in this SugarCRM Public License – Additional Terms shall apply to the Covered Code under this License.
+These additional terms described in this SugarCRM Public License ï¿½ Additional Terms shall apply to the Covered Code under this License.
 
 II. SugarCRM and logo.
 This License does not grant any rights to use the trademarks "SugarCRM" and the "SugarCRM" logos even if such marks are included in the Original Code or Modifications. 

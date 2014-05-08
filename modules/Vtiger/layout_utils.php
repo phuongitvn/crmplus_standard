@@ -80,7 +80,7 @@ else {
 
 if ($show_help==true) {
      $the_form .= "<td class='bodySmall' align='right'>[ <A href='phprint.php?jt=".session_id().$GLOBALS['request_string']."'>".$app_strings['LNK_PRINT']."</A> ]</td>\n";
-     $the_form .= "<td class='bodySmall' align='right'>[ <A href='http://www.vtiger.com/products/crm/document.html' target='_blank'>".$app_strings['LNK_HELP']."</A> ]</td>\n";
+     $the_form .= "<td class='bodySmall' align='right'>[ <A href='http://www.thongtinquanly.com/crmplus' target='_blank'>".$app_strings['LNK_HELP']."</A> ]</td>\n";
 }
 
 $the_form .= <<<EOQ

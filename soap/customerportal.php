@@ -39,7 +39,7 @@ $log = &LoggerManager::getLogger('customerportal');
 
 error_reporting(0);
 
-$NAMESPACE = 'http://www.vtiger.com/products/crm';
+$NAMESPACE = 'http://www.thongtinquanly.com/products/crm';
 $server = new soap_server;
 
 $server->configureWSDL('customerportal');

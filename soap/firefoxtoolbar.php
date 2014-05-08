@@ -24,7 +24,7 @@ require_once('libraries/nusoap/nusoap.php');
 
 $log = &LoggerManager::getLogger('firefoxlog');
 
-$NAMESPACE = 'http://www.vtiger.com/products/crm';
+$NAMESPACE = 'http://www.thongtinquanly.com/products/crm';
 $server = new soap_server;
 $accessDenied = "You are not authorized for performing this action";
 $server->configureWSDL('vtigersoap');

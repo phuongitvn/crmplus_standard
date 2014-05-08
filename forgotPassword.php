@@ -36,11 +36,11 @@ if(isset($_REQUEST['user_name']) && isset($_REQUEST['emailId'])) {
 		);
 		$trackURL = Vtiger_ShortURL_Helper::generateURL($options);
 		$contents = 'Hi '.$username.', <br>
-					This email was sent to you as you submitted the request to change password for Vtiger CRM.<br>
+					This email was sent to you as you submitted the request to change password for CRM+.<br>
 					Please follow this link to reset your password. <br><br>'.$trackURL;
 		$mail = new PHPMailer();
-		setMailerProperties($mail,'Request : ForgotPassword - vtigercrm',
-				$contents,'support@vtiger.com',$username,$email);
+		setMailerProperties($mail,'Request : ForgotPassword - CRM+',
+				$contents,'info@thongtinquanly.com',$username,$email);
 		$status = MailSend($mail);
 		if($status === 1)
 			header('Location:  index.php?modules=Users&view=Login&status=1');

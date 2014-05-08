@@ -27,7 +27,6 @@ class Vtiger_Zip extends dZip {
 		//header("Content-Transfer-Encoding: binary");
 
 		// For details on this workaround check here the ticket
-		// http://trac.vtiger.com/cgi-bin/trac.cgi/ticket/5298
 		$disk_file_size = filesize($zipfileName);
 		$zipfilesize = $disk_file_size + ($disk_file_size % 1024);
 		header("Content-Length: ".$zipfilesize);

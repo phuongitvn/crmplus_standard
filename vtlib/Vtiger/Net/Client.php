@@ -22,7 +22,6 @@ class Vtiger_Net_Client {
 	 * Constructor
 	 * @param String URL of the site
 	 * Example: 
-	 * $client = new Vtiger_New_Client('http://www.vtiger.com');
 	 */
 	function __construct($url) {
 		$this->setURL($url);
