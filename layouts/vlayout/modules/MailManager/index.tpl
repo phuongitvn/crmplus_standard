@@ -6,7 +6,7 @@
 * Portions created by vtiger are Copyright (C) vtiger.
 * All Rights Reserved.
 ************************************************************************************}
-<div class="span2 row-fluid">
+<div class="span2 row-fluid" id="leftPanel">
 	<div id="_quicklinks_mainuidiv_" class="quickWidgetContainer accordion">
 		{include file="modules/MailManager/MainuiQuickLinks.tpl"}
 	
@@ -17,7 +17,7 @@
 	</div>
 </div>
 
-<div class="contentsDiv span10 marginLeftZero">
+<div class="contentsDiv span10 marginLeftZero" id="rightPanel">
 	<div id='_progress_' style='float: right; display: none; position: absolute; right: 35px; font-weight: bold;'>
 		<span id='_progressmsg_'>...</span><img src="{'vtbusy.gif'|@vimage_path}" border='0' align='absmiddle'></div>
 
