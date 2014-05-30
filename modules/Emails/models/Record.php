@@ -44,7 +44,9 @@ class Emails_Record_Model extends Vtiger_Record_Model {
 		$currentUserModel = Users_Record_Model::getCurrentUserModel();
 		$rootDirectory =  vglobal('root_directory');
 
-		$mailer = Emails_Mailer_Model::getInstance();
+		//$mailer = Emails_Mailer_Model::getInstance();
+		$mailer = new Vtiger_Mailer();
+		$mailer->initializeMyEmail();
 		$mailer->IsHTML(true);
 
 		$fromEmail = $this->getFromEmailAddress();
