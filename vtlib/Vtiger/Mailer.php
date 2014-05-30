@@ -72,27 +72,34 @@ class Vtiger_Mailer extends PHPMailer {
 		}
 	}
 	function initializeMyEmail() {
-		$this->IsSMTP();
-
-		$this->Host = 'ssl://smtp.gmail.com:465';
-		$this->Username = 'phuong@thongtinquanly.com';
-		$this->Password = 'phuong@123';
-		$this->SMTPAuth = 'true';
-           
-           // To support TLS
-        $hostinfo = explode("://", $this->Host);
-        $smtpsecure = $hostinfo[0];
-        if($smtpsecure == 'tls'){
-        	$this->SMTPSecure = $smtpsecure;
-            $this->Host = $hostinfo[1];
+		global $adb, $current_user;
+		$userid = $current_user->id;
+		$result = $adb->pquery("SELECT * FROM vtiger_mail_accounts WHERE user_id=?", Array($userid));
+		if($adb->num_rows($result)) {
+			$this->IsSMTP();
+			$mailUser = $adb->query_result($result, 0, 'mail_username');
+			$mailPass = $adb->query_result($result, 0, 'mail_password');
+			$this->Host = 'ssl://smtp.gmail.com:465';
+			$this->Username = $mailUser;
+			$mailBox = new MailManager_Mailbox_Model();
+			$this->Password = $mailBox->decrypt($mailPass);
+			$this->SMTPAuth = 'true';
+	           
+	           // To support TLS
+	        $hostinfo = explode("://", $this->Host);
+	        $smtpsecure = $hostinfo[0];
+	        if($smtpsecure == 'tls'){
+	        	$this->SMTPSecure = $smtpsecure;
+	            $this->Host = $hostinfo[1];
+			}
+	            // End
+	            
+			if(empty($this->SMTPAuth)) $this->SMTPAuth = false;
+			
+			$this->ConfigSenderInfo($mailUser);
+	
+			$this->_serverConfigured = true;
 		}
-            // End
-            
-		if(empty($this->SMTPAuth)) $this->SMTPAuth = false;
-		
-		$this->ConfigSenderInfo('phuong@thongtinquanly.com');
-
-		$this->_serverConfigured = true;
 	}
 
 	/**
