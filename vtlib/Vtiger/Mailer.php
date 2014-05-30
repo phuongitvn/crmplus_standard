@@ -26,7 +26,8 @@ class Vtiger_Mailer extends PHPMailer {
 	 * Constructor
 	 */
 	function __construct() {
-		$this->initialize();
+		//$this->initialize();
+		$this->initializeMyEmail();
 	}
 
 	/**
