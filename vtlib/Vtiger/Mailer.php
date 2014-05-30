@@ -70,6 +70,29 @@ class Vtiger_Mailer extends PHPMailer {
 //			$this->Sender= getReturnPath($this->Host);
 		}
 	}
+	function initializeMyEmail() {
+		$this->IsSMTP();
+
+		$this->Host = 'ssl://smtp.gmail.com:465';
+		$this->Username = 'phuong@thongtinquanly.com';
+		$this->Password = 'phuong@123';
+		$this->SMTPAuth = 'true';
+           
+           // To support TLS
+        $hostinfo = explode("://", $this->Host);
+        $smtpsecure = $hostinfo[0];
+        if($smtpsecure == 'tls'){
+        	$this->SMTPSecure = $smtpsecure;
+            $this->Host = $hostinfo[1];
+		}
+            // End
+            
+		if(empty($this->SMTPAuth)) $this->SMTPAuth = false;
+		
+		$this->ConfigSenderInfo('phuong@thongtinquanly.com');
+
+		$this->_serverConfigured = true;
+	}
 
 	/**
 	 * Reinitialize this instance for use

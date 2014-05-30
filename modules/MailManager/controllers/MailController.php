@@ -174,6 +174,7 @@ class MailManager_MailController_Controller extends MailManager_Controller_Contr
 					$userId = $current_user->id;
 
 					$mailer = new Vtiger_Mailer();
+					$mailer->initializeMyEmail();
 					$mailer->IsHTML(true);
 					$mailer->ConfigSenderInfo($fromEmail, $userFullName, $current_user->email1);
 					$mailer->Subject = $subject;
